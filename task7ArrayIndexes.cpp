@@ -11,10 +11,8 @@ vector<int> findAllIndices(int arr[], int size, int key) {
             indices.push_back(i); // store index at the end  of the vector
         }
     }
-
     return indices; //returns the vector carrying indexes
 }
-
 int main() {
     // Case 1: Multiple occurrences
     int arr1[] = {1, 3, 7, 3, 5, 3};
@@ -42,6 +40,4 @@ int main() {
     if (result3.empty()) cout << "Not found (array empty)";
     else for (int i = 0; i < result3.size(); i++) cout << result3[i] << " ";
     cout << endl;
-
-    return 0;
-}
+    return 0;}
